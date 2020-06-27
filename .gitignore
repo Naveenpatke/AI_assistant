@@ -1,0 +1,12 @@
+environment_var.py
+output.wav
+recognized.txt
+__pycache__
+.idea
+credential data
+task/credentials.json
+task/token.pickle
+.idea
+__pycache__/environment_var.cpython-37.pyc
+yolo-coco
+image_to_text.py

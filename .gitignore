@@ -8,5 +8,5 @@ task/credentials.json
 task/token.pickle
 .idea
 __pycache__/environment_var.cpython-37.pyc
-yolo-coco
+object_detector/yolo-coco
 image_to_text.py

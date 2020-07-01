@@ -86,7 +86,7 @@ def object_detector():
         start = time.time()
         layerOutputs = net.forward(ln)
         end = time.time()
-
+        total_time = end - start
         # initialize our lists of detected bounding boxes, confidences,
         # and class IDs, respectively
         boxes = []
@@ -144,7 +144,7 @@ def object_detector():
                 print(text)
                 text1 = "{}".format(LABELS[classIDs[i]])
                 print(text1)
-                playsound("object_detector\\audio\\" + text1 + ".mp3")
+                playsound("audio\\" + text1 + ".mp3")
                 cv2.putText(frame, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
         cv2.imshow('name', frame)

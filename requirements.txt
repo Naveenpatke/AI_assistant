@@ -5,7 +5,7 @@ imutils==0.5.3
 numpy==1.18.4
 opencv-python==4.2.0.34
 Pillow==7.1.2
-pipenv==2020.6.2
+pipenv==2022.1.8
 pipwin==0.5.0
 playsound==1.2.2
 PyAudio @ file:///C:/Users/Naveen/pipwin/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl

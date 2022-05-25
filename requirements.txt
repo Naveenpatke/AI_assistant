@@ -13,7 +13,7 @@ pycparser==2.20
 pygame==1.9.6
 PyGithub==1.51
 pyjsparser==2.7.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.5.2
 pyparsing==2.4.7
 pyperclip==1.8.0
